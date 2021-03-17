@@ -92,8 +92,8 @@ app.delete("/logout", verifyToken, (req, res) => {
     }
     return user;
   });
-  console.log("usersDelete");
-  console.log(users);
+  //   console.log("usersDelete");
+  //   console.log(users);
 
   return res.json({ msg: "delete success !!" });
 });
